@@ -1,0 +1,34 @@
+{
+  "name": "doris-2.1-docs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Apache Doris 2.1 Chinese documentation archive (unofficial)",
+  "scripts": {
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "serve": "docusaurus serve",
+    "clear": "docusaurus clear"
+  },
+  "dependencies": {
+    "@docusaurus/core": "3.6.3",
+    "@docusaurus/preset-classic": "3.6.3",
+    "@mdx-js/react": "3.1.0",
+    "@yang1666204/docusaurus-search-local": "0.0.7",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "overrides": {
+    "@docusaurus/core": "3.6.3",
+    "@docusaurus/plugin-content-docs": "3.6.3",
+    "@docusaurus/bundler": "3.6.3",
+    "@docusaurus/utils": "3.6.3",
+    "@docusaurus/utils-common": "3.6.3",
+    "@docusaurus/utils-validation": "3.6.3",
+    "@docusaurus/theme-translations": "3.6.3",
+    "@docusaurus/theme-common": "3.6.3",
+    "webpack": "5.95.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
