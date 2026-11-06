@@ -7,6 +7,7 @@ const config = {
     tagline: 'Apache Doris 2.1 中文文档归档',
     url: 'https://zh0122.github.io',
     baseUrl: '/doris-2.1-docs/',
+    favicon: 'img/favicon.ico',
     trailingSlash: true,
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'throw',
@@ -29,6 +30,9 @@ const config = {
                     showLastUpdateTime: false,
                 },
                 blog: false,
+                theme: {
+                    customCss: require.resolve('./src/css/custom.css'),
+                },
             },
         ],
     ],
@@ -37,7 +41,7 @@ const config = {
             require.resolve('@yang1666204/docusaurus-search-local'),
             {
                 hashed: true,
-                language: ['zh'],
+                language: ['en', 'zh'],
                 indexDocs: true,
                 docsRouteBasePath: ['docs'],
                 indexBlog: false,
@@ -50,8 +54,16 @@ const config = {
         ],
     ],
     themeConfig: {
+        colorMode: {
+            disableSwitch: true,
+            respectPrefersColorScheme: false,
+        },
         navbar: {
             title: 'Apache Doris 2.1 中文文档',
+            logo: {
+                src: 'img/doris-logo.svg',
+                alt: 'Apache Doris',
+            },
             items: [
                 {
                     type: 'search',

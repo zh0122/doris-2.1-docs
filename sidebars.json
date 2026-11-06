@@ -2,14 +2,14 @@
     "docs": [
         {
             "type": "category",
-            "label": "Getting Started",
+            "label": "快速开始",
             "collapsed": false,
             "items": [
                 "gettingStarted/what-is-apache-doris",
                 "gettingStarted/quick-start",
                 {
                     "type": "category",
-                    "label": "Tech Alternatives",
+                    "label": "技术对比",
                     "items": [
                         "gettingStarted/alternatives/alternative-to-clickhouse",
                         "gettingStarted/alternatives/alternative-to-elasticsearch",
@@ -20,16 +20,16 @@
         },
         {
             "type": "category",
-            "label": "Guides",
+            "label": "使用指南",
             "collapsed": false,
             "items": [
                 {
                     "type": "category",
-                    "label": "Installation and Deployment",
+                    "label": "安装部署",
                     "items": [
                         {
                             "type": "category",
-                            "label": "Installation Preparation",
+                            "label": "部署前准备",
                             "items": [
                                 "install/preparation/env-checking",
                                 "install/preparation/cluster-planning",
@@ -39,7 +39,7 @@
                         "install/deploy-manually/integrated-storage-compute-deploy-manually",
                         {
                             "type": "category",
-                            "label": "Deploying on Kubernetes",
+                            "label": "在 Kubernetes 部署",
                             "items": [
                                 "install/deploy-on-kubernetes/install-doris-operator",
                                 "install/deploy-on-kubernetes/install-config-cluster",
@@ -50,7 +50,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "Deploying on Cloud",
+                            "label": "云上部署集群",
                             "items": [
                                 "install/deploy-on-cloud/doris-on-aws"
                             ]
@@ -59,7 +59,7 @@
                 },
                 {
                     "type": "category",
-                    "label": "Database Connection",
+                    "label": "数据库连接",
                     "items": [
                         "db-connect/database-connect",
                         "db-connect/arrow-flight-sql-connect"
@@ -67,12 +67,12 @@
                 },
                 {
                     "type": "category",
-                    "label": "Data Table Design",
+                    "label": "数据表设计",
                     "items": [
                         "table-design/overview",
                         {
                             "type": "category",
-                            "label": "Table Types",
+                            "label": "表类型",
                             "items": [
                                 "table-design/data-model/overview",
                                 "table-design/data-model/duplicate",
@@ -83,7 +83,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "Data Partitioning",
+                            "label": "数据划分",
                             "items": [
                                 "table-design/data-partitioning/data-distribution",
                                 "table-design/data-partitioning/manual-partitioning",
@@ -98,7 +98,7 @@
                         "table-design/column-compression",
                         {
                             "type": "category",
-                            "label": "Table Indexes",
+                            "label": "表索引",
                             "items": [
                                 "table-design/index/index-overview",
                                 "table-design/index/prefix-index",
@@ -111,7 +111,7 @@
                         "table-design/auto-increment",
                         {
                             "type": "category",
-                            "label": "Tiered Storage",
+                            "label": "冷热数据分层",
                             "items": [
                                 "table-design/tiered-storage/overview",
                                 "table-design/tiered-storage/tiered-ssd-hdd",
@@ -124,12 +124,12 @@
                 },
                 {
                     "type": "category",
-                    "label": "Loading Data",
+                    "label": "数据导入",
                     "items": [
                         "data-operate/import/load-manual",
                         {
                             "type": "category",
-                            "label": "Data Source",
+                            "label": "数据源",
                             "items": [
                                 "data-operate/import/data-source/local-file",
                                 "data-operate/import/data-source/kafka",
@@ -152,7 +152,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "Loading Methods",
+                            "label": "导入方式",
                             "items": [
                                 "data-operate/import/import-way/stream-load-manual",
                                 "data-operate/import/import-way/broker-load-manual",
@@ -165,7 +165,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "File Formats",
+                            "label": "文件格式",
                             "items": [
                                 "data-operate/import/file-format/csv",
                                 "data-operate/import/file-format/json",
@@ -175,7 +175,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "Complex Data Types",
+                            "label": "复杂数据类型",
                             "items": [
                                 "data-operate/import/complex-types/array",
                                 "data-operate/import/complex-types/map",
@@ -195,11 +195,11 @@
                 },
                 {
                     "type": "category",
-                    "label": "Data Update and Delete",
+                    "label": "数据更新与删除",
                     "items": [
                         {
                             "type": "category",
-                            "label": "Updating Data",
+                            "label": "数据更新",
                             "items": [
                                 "data-operate/update/update-overview",
                                 "data-operate/update/unique-update",
@@ -210,7 +210,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "Deleting Data",
+                            "label": "数据删除",
                             "items": [
                                 "data-operate/delete/delete-overview",
                                 "data-operate/delete/delete-manual",
@@ -225,7 +225,7 @@
                 },
                 {
                     "type": "category",
-                    "label": "Exporting Data",
+                    "label": "数据导出",
                     "items": [
                         "data-operate/export/export-overview",
                         "data-operate/export/export-manual",
@@ -236,7 +236,7 @@
                 },
                 {
                     "type": "category",
-                    "label": "Data Queries",
+                    "label": "数据查询",
                     "items": [
                         "query-data/mysql-compatibility",
                         "query-data/join",
@@ -246,7 +246,7 @@
                         "query-data/cte",
                         {
                             "type": "category",
-                            "label": "User Defined Functions",
+                            "label": "自定义函数",
                             "items": [
                                 "query-data/udf/alias-function",
                                 "query-data/udf/java-user-defined-function"
@@ -258,11 +258,11 @@
                 },
                 {
                     "type": "category",
-                    "label": "Queries Acceleration",
+                    "label": "查询加速",
                     "items": [
                         {
                             "type": "category",
-                            "label": "Performance Tuning Overview",
+                            "label": "查询调优概述",
                             "items": [
                                 "query-acceleration/performance-tuning-overview/tuning-overview",
                                 "query-acceleration/performance-tuning-overview/diagnostic-tools",
@@ -272,13 +272,13 @@
                         },
                         {
                             "type": "category",
-                            "label": "Materialize View",
+                            "label": "物化视图",
                             "items": [
                                 "query-acceleration/materialized-view/overview",
                                 "query-acceleration/materialized-view/sync-materialized-view",
                                 {
                                     "type": "category",
-                                    "label": "Async-Materialized View",
+                                    "label": "异步物化视图",
                                     "items": [
                                         "query-acceleration/materialized-view/async-materialized-view/overview",
                                         "query-acceleration/materialized-view/async-materialized-view/functions-and-demands",
@@ -293,7 +293,7 @@
                         "query-acceleration/high-concurrent-point-query",
                         {
                             "type": "category",
-                            "label": "Distincting Counts",
+                            "label": "高效去重",
                             "items": [
                                 "query-acceleration/distinct-counts/bitmap-precise-deduplication",
                                 "query-acceleration/distinct-counts/hll-approximate-deduplication"
@@ -311,11 +311,11 @@
                         },
                         {
                             "type": "category",
-                            "label": "Tuning",
+                            "label": "查询优化实践",
                             "items": [
                                 {
                                     "type": "category",
-                                    "label": "Tuning Plan",
+                                    "label": "计划调优",
                                     "items": [
                                         "query-acceleration/tuning/tuning-plan/optimizing-table-schema",
                                         "query-acceleration/tuning/tuning-plan/optimizing-table-index",
@@ -332,7 +332,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "Tuning Execution",
+                                    "label": "执行调优",
                                     "items": [
                                         "query-acceleration/tuning/tuning-execution/adjustment-of-runtimefilter-wait-time",
                                         "query-acceleration/tuning/tuning-execution/data-skew-handling",
@@ -344,7 +344,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "Optimization Technology Principle",
+                            "label": "优化技术原理",
                             "items": [
                                 "query-acceleration/optimization-technology-principle/query-optimizer",
                                 "query-acceleration/optimization-technology-principle/pipeline-execution-engine",
@@ -357,13 +357,13 @@
                 },
                 {
                     "type": "category",
-                    "label": "Data Lakehouse",
+                    "label": "湖仓一体",
                     "items": [
                         "lakehouse/lakehouse-overview",
                         "lakehouse/catalog-overview",
                         {
                             "type": "category",
-                            "label": "Data Catalogs",
+                            "label": "数据目录",
                             "items": [
                                 "lakehouse/catalogs/hive-catalog",
                                 "lakehouse/catalogs/iceberg-catalog",
@@ -389,7 +389,7 @@
                         "lakehouse/file-analysis",
                         {
                             "type": "category",
-                            "label": "Metastores",
+                            "label": "元数据服务",
                             "items": [
                                 "lakehouse/metastores/hive-metastore",
                                 "lakehouse/metastores/aws-glue",
@@ -401,7 +401,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "Storages",
+                            "label": "存储服务",
                             "items": [
                                 "lakehouse/storages/hdfs",
                                 "lakehouse/storages/s3",
@@ -416,7 +416,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "File Format",
+                            "label": "开放文件格式",
                             "items": [
                                 "lakehouse/file-formats/parquet",
                                 "lakehouse/file-formats/orc",
@@ -429,7 +429,7 @@
                         "lakehouse/statistics",
                         {
                             "type": "category",
-                            "label": "Lakehouse Best Practices",
+                            "label": "湖仓一体最佳实践",
                             "items": [
                                 "lakehouse/best-practices/optimization",
                                 "lakehouse/best-practices/doris-hudi",
@@ -447,14 +447,14 @@
                 },
                 {
                     "type": "category",
-                    "label": "Observability",
+                    "label": "可观测性",
                     "items": [
                         "observability/overview",
                         "observability/log",
                         "observability/trace",
                         {
                             "type": "category",
-                            "label": "Integrations",
+                            "label": "集成",
                             "items": [
                                 "ecosystem/observability/logstash",
                                 "ecosystem/observability/beats",
@@ -469,17 +469,17 @@
                 },
                 {
                     "type": "category",
-                    "label": "Security",
+                    "label": "安全合规",
                     "items": [
                         "admin-manual/auth/security-overview",
                         {
                             "type": "category",
-                            "label": "Authentication and Authorization",
+                            "label": "认证与鉴权",
                             "items": [
                                 "admin-manual/auth/authentication-and-authorization",
                                 {
                                     "type": "category",
-                                    "label": "Authentication",
+                                    "label": "身份认证",
                                     "items": [
                                         "admin-manual/auth/authentication/internal",
                                         "admin-manual/auth/authentication/federation"
@@ -487,7 +487,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "Authorization",
+                                    "label": "鉴权管控",
                                     "items": [
                                         "admin-manual/auth/authorization/internal",
                                         "admin-manual/auth/authorization/ranger",
@@ -499,11 +499,11 @@
                         "admin-manual/audit-plugin",
                         {
                             "type": "category",
-                            "label": "Data Encryption",
+                            "label": "数据加密",
                             "items": [
                                 {
                                     "type": "category",
-                                    "label": "Encryption in Transit",
+                                    "label": "传输加密",
                                     "items": [
                                         "admin-manual/auth/certificate",
                                         "admin-manual/auth/fe-certificate"
@@ -518,7 +518,7 @@
         },
         {
             "type": "category",
-            "label": "Benchmark",
+            "label": "性能测试",
             "collapsed": false,
             "items": [
                 "benchmark/ssb",
@@ -528,12 +528,12 @@
         },
         {
             "type": "category",
-            "label": "Management",
+            "label": "管理指南",
             "collapsed": false,
             "items": [
                 {
                     "type": "category",
-                    "label": "Managing Cluster",
+                    "label": "集群管理",
                     "items": [
                         "admin-manual/cluster-management/upgrade",
                         "admin-manual/cluster-management/elastic-expansion",
@@ -544,12 +544,12 @@
                 },
                 {
                     "type": "category",
-                    "label": "Managing Workload",
+                    "label": "负载管理",
                     "items": [
                         "admin-manual/workload-management/workload-management-summary",
                         {
                             "type": "category",
-                            "label": "Resource Isolation",
+                            "label": "资源隔离",
                             "items": [
                                 "admin-manual/workload-management/resource-group",
                                 "admin-manual/workload-management/workload-group"
@@ -564,12 +564,12 @@
                 },
                 {
                     "type": "category",
-                    "label": "Managing Disaster Recovery",
+                    "label": "容灾管理",
                     "items": [
                         "admin-manual/data-admin/overview",
                         {
                             "type": "category",
-                            "label": "Backup & Restore",
+                            "label": "备份与恢复",
                             "items": [
                                 "admin-manual/data-admin/backup-restore/overview",
                                 "admin-manual/data-admin/backup-restore/backup",
@@ -578,7 +578,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "Cross Cluster Replication",
+                            "label": "跨集群复制",
                             "items": [
                                 "admin-manual/data-admin/ccr/overview",
                                 "admin-manual/data-admin/ccr/quickstart",
@@ -593,7 +593,7 @@
                 },
                 {
                     "type": "category",
-                    "label": "Log Management",
+                    "label": "日志管理",
                     "items": [
                         "admin-manual/log-management/fe-log",
                         "admin-manual/log-management/be-log"
@@ -601,7 +601,7 @@
                 },
                 {
                     "type": "category",
-                    "label": "Maintenance",
+                    "label": "运维监控",
                     "items": [
                         "admin-manual/maint-monitor/metrics",
                         "admin-manual/maint-monitor/monitor-alert",
@@ -612,7 +612,7 @@
                 },
                 {
                     "type": "category",
-                    "label": "Managing Configuration",
+                    "label": "配置管理",
                     "items": [
                         "admin-manual/config/config-dir",
                         "admin-manual/config/fe-config",
@@ -622,7 +622,7 @@
                 },
                 {
                     "type": "category",
-                    "label": "System Tables",
+                    "label": "系统表",
                     "items": [
                         "admin-manual/system-tables/overview",
                         {
@@ -690,17 +690,17 @@
                 },
                 {
                     "type": "category",
-                    "label": "Trouble Shooting",
+                    "label": "故障诊断处理",
                     "items": [
                         {
                             "type": "category",
-                            "label": "Managing Memory",
+                            "label": "内存管理",
                             "items": [
                                 "admin-manual/trouble-shooting/memory-management/overview",
                                 "admin-manual/trouble-shooting/memory-management/memory-issue-faq",
                                 {
                                     "type": "category",
-                                    "label": "Managing Memory Analysis",
+                                    "label": "内存分析",
                                     "items": [
                                         "admin-manual/trouble-shooting/memory-management/memory-analysis/jemalloc-memory-analysis",
                                         "admin-manual/trouble-shooting/memory-management/memory-analysis/global-memory-analysis",
@@ -717,7 +717,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "Managing Memory Feature",
+                                    "label": "内存特性",
                                     "items": [
                                         "admin-manual/trouble-shooting/memory-management/memory-feature/memory-tracker",
                                         "admin-manual/trouble-shooting/memory-management/memory-feature/memory-control-strategy"
@@ -829,7 +829,7 @@
         },
         {
             "type": "category",
-            "label": "Ecosystem",
+            "label": "生态扩展",
             "collapsed": false,
             "items": [
                 "ecosystem/spark-doris-connector",
@@ -861,7 +861,7 @@
                 },
                 {
                     "type": "category",
-                    "label": "SQL Clients",
+                    "label": "SQL 客户端",
                     "items": [
                         "ecosystem/bi/clouddm",
                         "ecosystem/bi/dbeaver",
@@ -870,7 +870,7 @@
                 },
                 {
                     "type": "category",
-                    "label": "Observability",
+                    "label": "可观测性",
                     "items": [
                         "ecosystem/observability/logstash",
                         "ecosystem/observability/beats",
@@ -883,7 +883,7 @@
                 },
                 {
                     "type": "category",
-                    "label": "More",
+                    "label": "更多",
                     "items": [
                         "ecosystem/cloudcanal",
                         "ecosystem/datax",
@@ -899,7 +899,7 @@
         },
         {
             "type": "category",
-            "label": "FAQ",
+            "label": "常见问题",
             "collapsed": false,
             "items": [
                 "faq/install-faq",
@@ -913,21 +913,21 @@
         },
         {
             "type": "category",
-            "label": "Reference",
+            "label": "SQL 手册",
             "collapsed": false,
             "items": [
                 {
                     "type": "category",
-                    "label": "Basic Elements",
+                    "label": "基础元素",
                     "items": [
                         {
                             "type": "category",
-                            "label": "SQL Data Types",
+                            "label": "SQL 类型",
                             "items": [
                                 "sql-manual/basic-element/sql-data-types/data-type-overview",
                                 {
                                     "type": "category",
-                                    "label": "Numeric Data Type",
+                                    "label": "数值类型",
                                     "items": [
                                         "sql-manual/basic-element/sql-data-types/numeric/BOOLEAN",
                                         "sql-manual/basic-element/sql-data-types/numeric/TINYINT",
@@ -942,7 +942,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "Datetime Data Type",
+                                    "label": "日期类型",
                                     "items": [
                                         "sql-manual/basic-element/sql-data-types/date-time/DATE",
                                         "sql-manual/basic-element/sql-data-types/date-time/TIME",
@@ -951,7 +951,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "String Data Type",
+                                    "label": "字符串类型",
                                     "items": [
                                         "sql-manual/basic-element/sql-data-types/string-type/CHAR",
                                         "sql-manual/basic-element/sql-data-types/string-type/VARCHAR",
@@ -960,7 +960,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "Semi-Structured Data Type",
+                                    "label": "半结构化类型",
                                     "items": [
                                         "sql-manual/basic-element/sql-data-types/semi-structured/ARRAY",
                                         "sql-manual/basic-element/sql-data-types/semi-structured/MAP",
@@ -971,7 +971,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "Aggregation Data Type",
+                                    "label": "聚合类型",
                                     "items": [
                                         "sql-manual/basic-element/sql-data-types/aggregate/HLL",
                                         "sql-manual/basic-element/sql-data-types/aggregate/BITMAP",
@@ -981,7 +981,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "IP Data Type",
+                                    "label": "IP 类型",
                                     "items": [
                                         "sql-manual/basic-element/sql-data-types/ip/IPV4",
                                         "sql-manual/basic-element/sql-data-types/ip/IPV6"
@@ -991,7 +991,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "Literal",
+                            "label": "字面量",
                             "items": [
                                 "sql-manual/basic-element/literal/numeric-literal",
                                 "sql-manual/basic-element/literal/string-literal",
@@ -1005,12 +1005,12 @@
                         "sql-manual/basic-element/comments",
                         {
                             "type": "category",
-                            "label": "Operators",
+                            "label": "操作符",
                             "items": [
                                 "sql-manual/basic-element/operators/arithmetic-operators",
                                 {
                                     "type": "category",
-                                    "label": "Conditional Operators",
+                                    "label": "条件操作符",
                                     "items": [
                                         "sql-manual/basic-element/operators/conditional-operators/logical-operators",
                                         "sql-manual/basic-element/operators/conditional-operators/comparison-operators",
@@ -1030,15 +1030,15 @@
                 },
                 {
                     "type": "category",
-                    "label": "SQL Functions",
+                    "label": "SQL 函数",
                     "items": [
                         {
                             "type": "category",
-                            "label": "Scalar Functions",
+                            "label": "标量函数",
                             "items": [
                                 {
                                     "type": "category",
-                                    "label": "Numeric Functions",
+                                    "label": "数值函数",
                                     "items": [
                                         "sql-manual/sql-functions/scalar-functions/numeric-functions/abs",
                                         "sql-manual/sql-functions/scalar-functions/numeric-functions/asin",
@@ -1084,7 +1084,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "String Functions",
+                                    "label": "字符串函数",
                                     "items": [
                                         "sql-manual/sql-functions/scalar-functions/string-functions/append-trailing-char-if-absent",
                                         "sql-manual/sql-functions/scalar-functions/string-functions/ascii",
@@ -1162,7 +1162,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "Date Functions",
+                                    "label": "时间日期函数",
                                     "items": [
                                         "sql-manual/sql-functions/scalar-functions/date-time-functions/convert-tz",
                                         "sql-manual/sql-functions/scalar-functions/date-time-functions/curdate",
@@ -1258,7 +1258,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "GIS Functions",
+                                    "label": "地理位置函数",
                                     "items": [
                                         "sql-manual/sql-functions/scalar-functions/spatial-functions/st-angle",
                                         "sql-manual/sql-functions/scalar-functions/spatial-functions/st-angle-sphere",
@@ -1284,7 +1284,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "Encryption Functions",
+                                    "label": "加密和信息摘要函数",
                                     "items": [
                                         "sql-manual/sql-functions/scalar-functions/encrypt-digest-functions/aes-decrypt",
                                         "sql-manual/sql-functions/scalar-functions/encrypt-digest-functions/aes-encrypt",
@@ -1305,7 +1305,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "Vector Distance Functions",
+                                    "label": "向量函数",
                                     "items": [
                                         "sql-manual/sql-functions/scalar-functions/distance-functions/cosine-distance",
                                         "sql-manual/sql-functions/scalar-functions/distance-functions/inner-product",
@@ -1315,7 +1315,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "Bitwise Functions",
+                                    "label": "位处理函数",
                                     "items": [
                                         "sql-manual/sql-functions/scalar-functions/bitwise-functions/bit-length",
                                         "sql-manual/sql-functions/scalar-functions/bitwise-functions/bitand",
@@ -1328,7 +1328,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "Array Functions",
+                                    "label": "ARRAY 函数",
                                     "items": [
                                         "sql-manual/sql-functions/scalar-functions/array-functions/array",
                                         "sql-manual/sql-functions/scalar-functions/array-functions/array-apply",
@@ -1379,7 +1379,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "MAP Functions",
+                                    "label": "MAP 函数",
                                     "items": [
                                         "sql-manual/sql-functions/scalar-functions/map-functions/map",
                                         "sql-manual/sql-functions/scalar-functions/map-functions/map-contains-key",
@@ -1391,7 +1391,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "Struct Functions",
+                                    "label": "STRUCT 函数",
                                     "items": [
                                         "sql-manual/sql-functions/scalar-functions/struct-functions/named-struct",
                                         "sql-manual/sql-functions/scalar-functions/struct-functions/struct",
@@ -1400,7 +1400,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "JSON Functions",
+                                    "label": "JSON 函数",
                                     "items": [
                                         "sql-manual/sql-functions/scalar-functions/json-functions/get-json-bigint",
                                         "sql-manual/sql-functions/scalar-functions/json-functions/get-json-double",
@@ -1442,7 +1442,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "IP Functions",
+                                    "label": "IP 函数",
                                     "items": [
                                         "sql-manual/sql-functions/scalar-functions/ip-functions/ipv4-cidr-to-range",
                                         "sql-manual/sql-functions/scalar-functions/ip-functions/ipv4-num-to-string",
@@ -1469,7 +1469,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "Bitmap Functions",
+                                    "label": "BITMAP 函数",
                                     "items": [
                                         "sql-manual/sql-functions/scalar-functions/bitmap-functions/bitmap-and",
                                         "sql-manual/sql-functions/scalar-functions/bitmap-functions/bitmap-and-count",
@@ -1504,7 +1504,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "HLL Functions",
+                                    "label": "HLL 函数",
                                     "items": [
                                         "sql-manual/sql-functions/scalar-functions/hll-functions/hll-cardinality",
                                         "sql-manual/sql-functions/scalar-functions/hll-functions/hll-empty",
@@ -1515,7 +1515,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "System Functions",
+                                    "label": "系统函数",
                                     "items": [
                                         "sql-manual/sql-functions/scalar-functions/system-functions/connection-id",
                                         "sql-manual/sql-functions/scalar-functions/system-functions/current-catalog",
@@ -1529,7 +1529,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "Other Functions",
+                                    "label": "其他函数",
                                     "items": [
                                         "sql-manual/sql-functions/scalar-functions/other-functions/convert-to",
                                         "sql-manual/sql-functions/scalar-functions/other-functions/esquery",
@@ -1539,7 +1539,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "Quantile Functions",
+                                    "label": "QUANTILE 函数",
                                     "items": [
                                         "sql-manual/sql-functions/scalar-functions/quantile-functions/quantile-percent",
                                         "sql-manual/sql-functions/scalar-functions/quantile-functions/quantile-state-empty",
@@ -1548,7 +1548,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "Conditional Functions",
+                                    "label": "条件函数",
                                     "items": [
                                         "sql-manual/sql-functions/scalar-functions/conditional-functions/coalesce",
                                         "sql-manual/sql-functions/scalar-functions/conditional-functions/greatest",
@@ -1564,7 +1564,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "Aggregate Functions",
+                            "label": "聚合函数",
                             "items": [
                                 "sql-manual/sql-functions/aggregate-functions/any-value",
                                 "sql-manual/sql-functions/aggregate-functions/approx-count-distinct",
@@ -1621,7 +1621,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "Combinators",
+                            "label": "函数 Combinators",
                             "items": [
                                 "sql-manual/sql-functions/combinators/foreach",
                                 "sql-manual/sql-functions/combinators/merge",
@@ -1631,7 +1631,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "Analytic (Window) Functions",
+                            "label": "分析函数 (窗口函数)",
                             "items": [
                                 "sql-manual/sql-functions/window-functions/cume-dist",
                                 "sql-manual/sql-functions/window-functions/dense-rank",
@@ -1648,7 +1648,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "Table Functions",
+                            "label": "表函数",
                             "items": [
                                 "sql-manual/sql-functions/table-functions/explode",
                                 "sql-manual/sql-functions/table-functions/explode-bitmap",
@@ -1664,7 +1664,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "Table Valued Functions",
+                            "label": "表值函数",
                             "items": [
                                 "sql-manual/sql-functions/table-valued-functions/backends",
                                 "sql-manual/sql-functions/table-valued-functions/catalogs",
@@ -1687,11 +1687,11 @@
                 },
                 {
                     "type": "category",
-                    "label": "SQL Statements",
+                    "label": "SQL 语句",
                     "items": [
                         {
                             "type": "category",
-                            "label": "Data Queries",
+                            "label": "数据查询",
                             "items": [
                                 "sql-manual/sql-statements/data-query/SELECT",
                                 "sql-manual/sql-statements/data-query/EXPLAIN"
@@ -1699,7 +1699,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "Data Modification",
+                            "label": "数据修改",
                             "items": [
                                 {
                                     "type": "category",
@@ -1715,7 +1715,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "Load and Export",
+                                    "label": "导入导出",
                                     "items": [
                                         "sql-manual/sql-statements/data-modification/load-and-export/BROKER-LOAD",
                                         "sql-manual/sql-statements/data-modification/load-and-export/MYSQL-LOAD",
@@ -1747,7 +1747,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "Backup and Restore",
+                                    "label": "备份恢复",
                                     "items": [
                                         "sql-manual/sql-statements/data-modification/backup-and-restore/CREATE-REPOSITORY",
                                         "sql-manual/sql-statements/data-modification/backup-and-restore/DROP-REPOSITORY",
@@ -1765,7 +1765,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "Account Management",
+                            "label": "账户、角色和权限",
                             "items": [
                                 "sql-manual/sql-statements/account-management/CREATE-USER",
                                 "sql-manual/sql-statements/account-management/ALTER-USER",
@@ -1787,11 +1787,11 @@
                         },
                         {
                             "type": "category",
-                            "label": "Session",
+                            "label": "会话",
                             "items": [
                                 {
                                     "type": "category",
-                                    "label": "Context",
+                                    "label": "上下文",
                                     "items": [
                                         "sql-manual/sql-statements/session/context/SWITCH-CATALOG",
                                         "sql-manual/sql-statements/session/context/USE-DATABASE"
@@ -1799,7 +1799,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "Variable",
+                                    "label": "变量",
                                     "items": [
                                         "sql-manual/sql-statements/session/variable/SET-VARIABLE",
                                         "sql-manual/sql-statements/session/variable/UNSET-VARIABLE",
@@ -1808,7 +1808,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "Query",
+                                    "label": "查询",
                                     "items": [
                                         "sql-manual/sql-statements/session/query/SHOW-PROCESSLIST",
                                         "sql-manual/sql-statements/session/query/KILL-QUERY",
@@ -1819,7 +1819,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "Connection",
+                                    "label": "连接",
                                     "items": [
                                         "sql-manual/sql-statements/session/connection/KILL-CONNECTION"
                                     ]
@@ -1828,7 +1828,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "Transaction",
+                            "label": "事务",
                             "items": [
                                 "sql-manual/sql-statements/transaction/BEGIN",
                                 "sql-manual/sql-statements/transaction/COMMIT",
@@ -1838,7 +1838,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "Data Catalog",
+                            "label": "数据目录",
                             "items": [
                                 "sql-manual/sql-statements/catalog/CREATE-CATALOG",
                                 "sql-manual/sql-statements/catalog/ALTER-CATALOG",
@@ -1851,7 +1851,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "Database",
+                            "label": "数据库",
                             "items": [
                                 "sql-manual/sql-statements/database/CREATE-DATABASE",
                                 "sql-manual/sql-statements/database/ALTER-DATABASE",
@@ -1863,11 +1863,11 @@
                         },
                         {
                             "type": "category",
-                            "label": "Table and Views",
+                            "label": "表和视图",
                             "items": [
                                 {
                                     "type": "category",
-                                    "label": "Table",
+                                    "label": "表",
                                     "items": [
                                         "sql-manual/sql-statements/table-and-view/table/CREATE-TABLE",
                                         "sql-manual/sql-statements/table-and-view/table/DESC-TABLE",
@@ -1897,7 +1897,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "Index",
+                                    "label": "索引",
                                     "items": [
                                         "sql-manual/sql-statements/table-and-view/index/CREATE-INDEX",
                                         "sql-manual/sql-statements/table-and-view/index/DROP-INDEX",
@@ -1909,7 +1909,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "View",
+                                    "label": "视图",
                                     "items": [
                                         "sql-manual/sql-statements/table-and-view/view/CREATE-VIEW",
                                         "sql-manual/sql-statements/table-and-view/view/ALTER-VIEW",
@@ -1920,7 +1920,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "Synchronous Materialized View",
+                                    "label": "同步物化视图",
                                     "items": [
                                         "sql-manual/sql-statements/table-and-view/sync-materialized-view/CREATE-MATERIALIZED-VIEW",
                                         "sql-manual/sql-statements/table-and-view/sync-materialized-view/DROP-MATERIALIZED-VIEW",
@@ -1930,7 +1930,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "Asynchronous Materialized View",
+                                    "label": "异步物化视图",
                                     "items": [
                                         "sql-manual/sql-statements/table-and-view/async-materialized-view/ALTER-ASYNC-MATERIALIZED-VIEW",
                                         "sql-manual/sql-statements/table-and-view/async-materialized-view/CANCEL-MATERIALIZED-VIEW-TASK",
@@ -1944,7 +1944,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "Data and Status Management",
+                                    "label": "表数据和状态管理",
                                     "items": [
                                         "sql-manual/sql-statements/table-and-view/data-and-status-management/REBALANCE-DISK",
                                         "sql-manual/sql-statements/table-and-view/data-and-status-management/CANCEL-REBALANCE-DISK",
@@ -1974,7 +1974,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "Recycle",
+                            "label": "回收站",
                             "items": [
                                 "sql-manual/sql-statements/recycle/SHOW-CATALOG-RECYCLE-BIN",
                                 "sql-manual/sql-statements/recycle/RECOVER"
@@ -1982,7 +1982,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "Function",
+                            "label": "函数",
                             "items": [
                                 "sql-manual/sql-statements/function/CREATE-FUNCTION",
                                 "sql-manual/sql-statements/function/DROP-FUNCTION",
@@ -1993,7 +1993,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "Statistics",
+                            "label": "统计信息",
                             "items": [
                                 "sql-manual/sql-statements/statistics/ANALYZE",
                                 "sql-manual/sql-statements/statistics/ALTER-STATS",
@@ -2007,11 +2007,11 @@
                         },
                         {
                             "type": "category",
-                            "label": "Cluster Management",
+                            "label": "集群管理",
                             "items": [
                                 {
                                     "type": "category",
-                                    "label": "Instance Management",
+                                    "label": "物理实例管理",
                                     "items": [
                                         "sql-manual/sql-statements/cluster-management/instance-management/ADD-FOLLOWER",
                                         "sql-manual/sql-statements/cluster-management/instance-management/DROP-FOLLOWER",
@@ -2035,7 +2035,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "Compute Management",
+                                    "label": "计算资源管理",
                                     "items": [
                                         "sql-manual/sql-statements/cluster-management/compute-management/CREATE-RESOURCE",
                                         "sql-manual/sql-statements/cluster-management/compute-management/ALTER-RESOURCE",
@@ -2052,7 +2052,7 @@
                                 },
                                 {
                                     "type": "category",
-                                    "label": "Storage Management",
+                                    "label": "存储资源管理",
                                     "items": [
                                         "sql-manual/sql-statements/cluster-management/storage-management/CREATE-STORAGE-POLICY",
                                         "sql-manual/sql-statements/cluster-management/storage-management/ALTER-STORAGE-POLICY",
@@ -2064,7 +2064,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "Security",
+                            "label": "安全合规",
                             "items": [
                                 "sql-manual/sql-statements/security/CREATE-FILE",
                                 "sql-manual/sql-statements/security/DROP-FILE",
@@ -2076,7 +2076,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "Data Governance",
+                            "label": "数据治理",
                             "items": [
                                 "sql-manual/sql-statements/data-governance/CREATE-SQL_BLOCK_RULE",
                                 "sql-manual/sql-statements/data-governance/ALTER-SQL_BLOCK_RULE",
@@ -2089,7 +2089,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "Job",
+                            "label": "后台任务",
                             "items": [
                                 "sql-manual/sql-statements/job/CREATE-JOB",
                                 "sql-manual/sql-statements/job/PAUSE-JOB",
@@ -2100,7 +2100,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "Plugin",
+                            "label": "插件",
                             "items": [
                                 "sql-manual/sql-statements/plugin/INSTALL-PLUGIN",
                                 "sql-manual/sql-statements/plugin/UNINSTALL-PLUGIN",
@@ -2109,7 +2109,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "Character Set",
+                            "label": "字符集",
                             "items": [
                                 "sql-manual/sql-statements/character-set/SHOW-COLLATION",
                                 "sql-manual/sql-statements/character-set/SHOW-CHARSET"
@@ -2117,7 +2117,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "Types",
+                            "label": "类型",
                             "items": [
                                 "sql-manual/sql-statements/types/SHOW-DATA-TYPES",
                                 "sql-manual/sql-statements/types/SHOW-TYPECAST"
@@ -2125,7 +2125,7 @@
                         },
                         {
                             "type": "category",
-                            "label": "Info System and Help",
+                            "label": "系统信息和帮助",
                             "items": [
                                 "sql-manual/sql-statements/system-info-and-help/SHOW-PROC"
                             ]
